@@ -1,8 +1,17 @@
-libxxf86dga (2:1.1.4-deepin1) unstable; urgency=medium
+libxxf86dga (2:1.1.5-1) unstable; urgency=medium
 
-  * Rebuild
+  * New upstream release.
+  * control: Migrate to x11proto-dev.
+  * control: Migrate to debhelper-compat, bump to 13.
+  * control: Bump policy to 4.6.1.
+  * control: Drop Cyril from uploaders.
+  * Remove obsolete XSFBS section from README.source.
+  * Update upstream and packaging URLs.
+  * Switch to dh.
+  * Switch to -dbgsym packages.
+  * control: Drop obsolete build-deps.
 
- -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:00:45 +0800
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 19 Sep 2022 13:04:11 +0300
 
 libxxf86dga (2:1.1.4-1) unstable; urgency=low
 
